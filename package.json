@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/santiagokasses/tp-1-node/issues"
   },
-  "homepage": "https://github.com/santiagokasses/tp-1-node#readme"
+  "homepage": "https://github.com/santiagokasses/tp-1-node#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
 }
