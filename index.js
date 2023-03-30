@@ -17,6 +17,7 @@ const Alumno = require("./src/Models/Alumno")
 Alumno.Username = "Nacho"
 Alumno.DNI="468794949"
 console.log(Alumno.Username,Alumno.DNI)
+
 // Ejercico 4
 
 fs.readFile("./txt/dai.txt", "utf8", (err, data) => {
