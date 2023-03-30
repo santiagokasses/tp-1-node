@@ -25,7 +25,7 @@ fs.readFile("./txt/dai.txt", "utf8", (err, data) => {
   console.log(data)
   fs.writeFile("./txt/dai2.txt", data , err =>{
     if (err) return console.log(err)
-    console.log("El archivo fue creado correctamente")
+    console.log("El archivo fue copiado correctamente")
   })
 })
 
