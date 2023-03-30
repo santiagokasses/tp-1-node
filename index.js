@@ -1,5 +1,6 @@
 const matematica = require("./src/modules/matematica")
 const fs = require('fs')
+const countryToCurrency = require( 'country-to-currency' )
 
 //Ejercicio 1
 
@@ -35,8 +36,6 @@ const url = require("./src/modules/Url")
 url.leerUrl("http://www.ort.edu.ar:8080/alumnos/index.htm?curso=2022&mes=mayo")
 
 //Ejercicio 7
-
-const countryToCurrency = require( 'country-to-currency' )
 
 const país = "US"
 
