@@ -1,5 +1,6 @@
 const matematica = require("./src/modules/matematica")
-const fs = require('fs');
+const fs = require('fs')
+const country = require('countries-list')
 
 //Ejercicio 1
 
@@ -35,3 +36,6 @@ fs.readFile("./txt/dai.txt", "utf8", (err, data) => {
 
 //Ejercicio 7
 
+const ObtenerMoneda=(e)=>{return country.countries.e.currency}
+let moneda = ObtenerMoneda("AR")
+console.log(moneda)
