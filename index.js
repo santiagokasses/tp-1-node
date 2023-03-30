@@ -1,6 +1,5 @@
 const matematica = require("./src/modules/matematica")
 const fs = require('fs')
-const country = require('countries-list')
 
 //Ejercicio 1
 
@@ -37,6 +36,8 @@ url.leerUrl("http://www.ort.edu.ar:8080/alumnos/index.htm?curso=2022&mes=mayo")
 
 //Ejercicio 7
 
-/*const ObtenerMoneda=(e)=>{return country.countries.e.currency}
-let moneda = ObtenerMoneda("AR")
-console.log(moneda)*/
+const countryToCurrency = require( 'country-to-currency' )
+
+const país = "US"
+
+console.log(`La mondeda de ${país} es: ${countryToCurrency[país]}`)
