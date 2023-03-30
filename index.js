@@ -30,12 +30,13 @@ fs.readFile("./txt/dai.txt", "utf8", (err, data) => {
   })
 })
 
-//Ejercicio 5
+//Ejercicio 5 y 6
 
-//Ejercicio 6
+const url = require("./src/modules/Url")
+url.leerUrl("http://www.ort.edu.ar:8080/alumnos/index.htm?curso=2022&mes=mayo")
 
 //Ejercicio 7
 
-const ObtenerMoneda=(e)=>{return country.countries.e.currency}
+/*const ObtenerMoneda=(e)=>{return country.countries.e.currency}
 let moneda = ObtenerMoneda("AR")
-console.log(moneda)
+console.log(moneda)*/

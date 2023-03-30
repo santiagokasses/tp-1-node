@@ -19,6 +19,7 @@
   "homepage": "https://github.com/santiagokasses/tp-1-node#readme",
   "dependencies": {
     "countries-list": "^2.6.1",
-    "fs": "^0.0.1-security"
+    "fs": "^0.0.1-security",
+    "url": "^0.11.0"
   }
 }
