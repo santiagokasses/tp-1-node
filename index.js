@@ -1,8 +1,20 @@
 const matematica = require("./src/modules/matematica")
 const fs = require('fs');
-const readline = require('readline');
 
+//Ejercicio 1
 
+var nombre = "axel"
+var apellido = "navarro"
+
+console.log(`Hola ${nombre} ${apellido}`)
+
+//Ejercicio 2
+
+console.log(matematica.PI)
+
+//Ejercicio 3
+
+// Ejercico 4
 
 fs.readFile("./txt/dai.txt", "utf8", (err, data) => {
   if (err) return console.error(err)
@@ -13,10 +25,9 @@ fs.readFile("./txt/dai.txt", "utf8", (err, data) => {
   })
 })
 
-var nombre = "axel"
-var apellido = "navarro"
+//Ejercicio 5
 
-console.log(`Hola ${nombre} ${apellido}`)
+//Ejercicio 6
 
+//Ejercicio 7
 
-console.log(matematica.PI)
